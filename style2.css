@@ -1,0 +1,399 @@
+
+/*--------------  FOR THE WHOLE WEB ------------*/
+
+*{
+
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+ 
+
+/*----------------------------------------------*/
+
+
+
+/*--------------  The Body in General------------*/
+
+body{
+margin: 0;
+padding: 0;
+display: flex;
+height: 100%;
+}
+
+/*----------------------------------------------*/
+
+
+
+
+/*--------------  All the ASIDE part ------------*/
+
+aside{
+
+position: relative;    
+background-color: #512B81;
+min-height: 100vh;
+width: 35%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+
+}
+
+
+
+/* 1st div of the UPPER DIV */
+
+aside >  div:first-of-type {
+
+    margin-top: 20px; 
+}
+
+
+img{
+
+display: block;
+margin:  0 auto;
+border-radius: 50%;
+width: 98px;
+height: 98px;
+}
+
+img:hover {
+    transform: scale(1.2); 
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+    box-shadow: 0 0 10px 3px #C7D6FF;
+}
+
+/* ---------------------------------------------*/
+
+
+/* 2nd div of the UPPER DIV */
+
+#mynam:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 3px #C7D6FF; 
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 10px;
+}
+
+#mynam{
+
+    color: aliceblue;
+}
+
+/*----------------------------------------------*/
+
+
+/* 3rd div of the UPPER DIV */
+
+.social a{
+    font-size: 25px;
+    margin: 4px;
+    height: 40px;
+    width: 40px;
+    color: rgb(21, 74, 74);
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: ease 0.30s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 10px 3px #C7D6FF; 
+}
+
+.alink{
+
+    color: black;
+}
+
+
+.alink:hover{
+
+    box-shadow: 0 0 10px 3px #CDE8D5; 
+    
+}
+
+.h4contacme{
+
+    color: aliceblue;
+
+}
+/*----------------------------------------------*/
+
+
+/* the LOWER DIV */
+
+.Aprogress-bar {
+    width: 150%;
+    height: 20px;
+    background-color: #4477CE; 
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+.Aprogress-bar:hover{
+
+    /* the glowing behind the bar*/
+
+    box-shadow: 0 0 10px 3px #C7D6FF; 
+    transition: box-shadow 0.3s ease;
+}
+
+
+
+.Aprogress {
+    height: 100%;
+    background-color: #C7D6FF;
+    border-radius: 5px;
+    
+}
+
+
+.h2skills{
+
+    color: aliceblue;
+}
+
+/*html div */
+
+.htmldiv span {
+
+    color: aliceblue;
+}
+
+.htmldiv i {
+
+    color: aliceblue;
+}
+
+/* css div*/
+.cssdiv span  {
+
+    color: aliceblue;
+}
+
+.cssdiv i  {
+
+    color: aliceblue;
+}
+
+/*cpp div*/
+.cppdiv span  {
+
+    color: aliceblue;
+}
+
+.cppdiv i  {
+
+    color: aliceblue;
+}
+
+/*java div*/
+.javadiv span  {
+
+    color: aliceblue;
+}
+
+.javadiv i  {
+
+    color: aliceblue;
+}
+
+/*c# div*/
+.csharpdiv span {
+
+    color: aliceblue;
+}
+
+.csharpdiv i {
+
+    color: aliceblue;
+}
+
+/*git div*/
+.gitdiv span  {
+
+    color: aliceblue;
+}
+
+.gitdiv i  {
+
+    color: aliceblue;
+}
+
+/*--------------------------------------------*/
+
+
+
+/*--------------  All The Main Part ------------*/
+
+main{
+
+    background-color: #4477CE;
+    min-height: 100%;
+    width: 65%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+
+          
+#grand-sec{   /* Parent Of All Sections */
+
+margin-top: 15px;
+height: 100%;  
+width: 96%; 
+}
+
+
+
+/* SECTION-1 */
+#sec-one{  
+
+    background-color:#C7D6FF;
+    width: 98%;
+   display: flex;
+   flex-direction: row;
+
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#sec-one:hover{
+    
+    box-shadow: 0 0 10px 3px white; 
+    transition: box-shadow 0.3s ease;
+}
+
+.h3about{
+
+    color: #512B81;
+}
+
+/*-----------------------------------------*/
+
+
+
+/* SECTION-2 */
+#sec-two{
+
+    background-color:#C7D6FF;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#sec-two:hover{
+
+    box-shadow: 0 0 10px 3px white; 
+    transition: box-shadow 0.3s ease;
+}
+
+.h3Edu{
+
+    color: #512B81;
+}
+
+/* university link inside SECTION-2 */
+
+#univlink{
+
+    color: #512B81;
+    text-decoration: none;
+}
+
+#univlink:hover{
+
+    color: #4477CE;
+}
+
+
+/* Web Certificate link inside SECTION-2 */
+
+#webcertlink{
+
+    color: #512B81;
+    text-decoration: none;
+}
+
+#webcertlink:hover{
+
+    color: #4477CE;
+}
+
+/*-----------------------------------------*/
+
+
+/* SECTION-3 */
+#sec-three{
+
+    background-color: #C7D6FF;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#sec-three:hover{
+
+    box-shadow: 0 0 10px 3px white; 
+    transition: box-shadow 0.3s ease;
+}
+
+.h3lan{
+
+    color: #512B81;
+}
+
+.lanheads{
+
+    color: #512B81;
+}
+
+.grid-container {  /* The Main Inner div */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-left: 40px;
+}
+
+
+.progress-bar {
+
+    width: 100%;
+    height: 20px;
+    background-color: #4477CE; 
+    border-radius: 5px;
+    margin-bottom: 13px;
+}
+  
+.progress {
+
+    height: 100%;
+    background-color: #512B81;
+    border-radius: 5px;
+}
+  
+  /*-----------------------------------------*/

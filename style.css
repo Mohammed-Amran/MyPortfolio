@@ -1,0 +1,300 @@
+
+/*--------------  FOR THE WHOLE WEB ------------*/
+
+*{
+
+  font-family:'Poppins',sans-serif;
+  
+}
+
+p{
+  color: #4D869C;
+  
+}
+
+/*----------------------------------------------*/
+
+
+
+/*--------------  The Body in General------------*/
+
+body{
+margin: 0;
+padding: 0;
+display: flex;
+height: 100%;
+}
+
+/*----------------------------------------------*/
+
+
+
+
+/*--------------  All the ASIDE part ------------*/
+
+aside{
+
+position: relative;    
+background-color: #7AB2B2;
+min-height: 100vh;
+width: 35%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+}
+
+/* 1st div of the UPPER DIV */
+
+aside >  div:first-of-type {
+
+  margin-top: 20px; 
+}
+
+
+img{
+
+display: block;
+margin:  0 auto;
+border-radius: 50%;
+width: 98px;
+height: 98px;
+}
+
+img:hover {
+  transform: scale(1.2); 
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
+  box-shadow: 0 0 10px 3px #CDE8D5;
+}
+
+/* ---------------------------------------------*/
+
+
+/* 2nd div of the UPPER DIV */
+
+#mynam:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 3px #CDE8D5; 
+  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 10px;
+}
+
+
+
+/*----------------------------------------------*/
+
+
+/* 3rd div of the UPPER DIV */
+
+.social a{
+  font-size: 25px;
+  margin: 4px;
+  height: 40px;
+  width: 40px;
+  color: rgb(21, 74, 74);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: ease 0.30s;
+}
+
+.social a:hover{
+  transform: scale(1.2);
+}
+
+
+.alink:hover{
+
+  box-shadow: 0 0 10px 3px #CDE8D5; 
+}
+
+
+
+
+/*----------------------------------------------*/
+
+
+/* the LOWER DIV */
+
+.Aprogress-bar {
+  width: 150%;
+  height: 20px;
+  background-color: #f0f0f0; 
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+
+.Aprogress-bar:hover{
+
+  /* the glowing behind the bar*/
+
+  box-shadow: 0 0 10px 3px #CDE8D5; 
+  transition: box-shadow 0.3s ease;
+}
+
+
+
+.Aprogress {
+  height: 100%;
+  background-color: #4D869C;
+  border-radius: 5px;
+  
+}
+
+
+
+
+
+/*--------------------------------------------*/
+
+
+
+/*--------------  All The Main Part ------------*/
+
+main{
+
+  background-color: #CDE8D5;
+  min-height: 100%;
+  width: 65%;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+}
+
+
+        
+#grand-sec{   /* Parent Of All Sections */
+
+margin-top: 15px;
+height: 100%;  
+width: 96%; 
+}
+
+
+
+/* SECTION-1 */
+#sec-one{  
+
+  background-color:#EEF7FF;
+  width: 98%;
+ display: flex;
+ flex-direction: row;
+
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+#sec-one:hover{
+
+  box-shadow: 0 0 10px 3px #4D869C; 
+  transition: box-shadow 0.3s ease;
+}
+
+/*-----------------------------------------*/
+
+
+
+/* SECTION-2 */
+#sec-two{
+
+  background-color:#EEF7FF;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+#sec-two:hover{
+
+  box-shadow: 0 0 10px 3px #4D869C; 
+  transition: box-shadow 0.3s ease;
+}
+
+
+/* university link inside SECTION-2 */
+
+#univlink{
+
+  color: black;
+  text-decoration: none;
+}
+
+#univlink:hover{
+
+  color: #CDE8D5;
+}
+
+
+/* Web Certificate link inside SECTION-2 */
+
+#webcertlink{
+
+  color: black;
+  text-decoration: none;
+}
+
+#webcertlink:hover{
+
+  color: #CDE8D5;
+}
+
+/*-----------------------------------------*/
+
+
+/* SECTION-3 */
+#sec-three{
+
+  background-color:#EEF7FF;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+#sec-three:hover{
+
+  box-shadow: 0 0 10px 3px #4D869C; 
+  transition: box-shadow 0.3s ease;
+}
+
+
+.grid-container {  /* The Main Inner div */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-left: 40px;
+  
+}
+
+
+.progress-bar {
+
+  width: 100%;
+  height: 20px;
+  background-color: #CDE8D5; 
+  border-radius: 5px;
+  margin-bottom: 13px;
+}
+
+.progress {
+
+  height: 100%;
+  background-color: #4D869C;
+  border-radius: 5px;
+}
+
+/*-----------------------------------------*/
